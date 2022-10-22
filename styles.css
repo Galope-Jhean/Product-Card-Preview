@@ -1,4 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+ul {
+    display: flex;
+}
+
 .attribution {
+    margin-top: 20rem;
     font-size: 11px;
     text-align: center;
 }
