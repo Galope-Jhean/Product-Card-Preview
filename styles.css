@@ -17,14 +17,14 @@
 }
 
 .content {
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 5%;
+    margin-left: 1.5rem;
     display: grid;
 }
 
 .content>h1 {
     line-height: 1.7rem;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 700;
     text-align: left;
 }
@@ -33,37 +33,37 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1rem;
-    letter-spacing: 5px;
+    letter-spacing: 0.3125rem;
     color: hsl(228, 12%, 48%);
 }
 
 .content>p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     line-height: 1.55rem;
     width: 90%;
 }
 
 .content .newprice {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-size: 30px;
     color: hsl(158, 36%, 37%);
 }
 
 .content .old {
-    margin-top: 30px;
+    margin-top: 1.75rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
 }
 
 .content>button {
-    margin-top: 25px;
+    margin-top: 1.5rem;
     width: 90%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     background-color: hsl(158, 36%, 37%);
     border: none;
     color: hsl(0, 0%, 100%);
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 8px;
 }
 
@@ -83,7 +83,7 @@ button>img {
 
 .product {
     width: 50%;
-    height: 100%;
+    height: auto;
     border-radius: 8px 0 0 8px;
 }
 
@@ -100,7 +100,7 @@ h1,
 
 body {
     background-color: hsl(30, 38%, 92%);
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 li {
