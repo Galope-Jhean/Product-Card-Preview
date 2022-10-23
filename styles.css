@@ -82,8 +82,8 @@ button>img {
 }
 
 .product {
-    width: 50%;
-    height: auto;
+    min-width: 50%;
+    height: 100%;
     border-radius: 8px 0 0 8px;
 }
 
@@ -120,4 +120,10 @@ ul {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+    .product {
+        display: none;
+    }
 }
