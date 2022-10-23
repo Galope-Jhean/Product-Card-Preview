@@ -128,6 +128,16 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
+    .card {
+        width: 275px;
+        height: auto;
+    }
+
+    .content>button {
+        margin-bottom: 15px;
+        margin-left: -10px;
+    }
+
     .product {
         display: none;
     }
