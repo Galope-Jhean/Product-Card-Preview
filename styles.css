@@ -60,14 +60,14 @@ h1 {
 }
 
 .content>button {
-    margin-top: 1.75rem;
+    margin-top: 1.45rem;
     width: 250px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     background-color: hsl(158, 36%, 37%);
     border: none;
     color: hsl(0, 0%, 100%);
-    padding: 0.625rem;
+    padding: 0.825rem;
     border-radius: 8px;
     display: flex;
     align-items: center;
