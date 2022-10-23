@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: .3s all;
 }
 
 .card {
@@ -24,8 +25,8 @@
     flex-direction: column;
 }
 
-.content>h1 {
-    font-size: 39px;
+h1 {
+    font-size: 40px;
     line-height: 1.0;
     margin-top: 1.25rem;
     font-weight: 700;
@@ -68,6 +69,9 @@
     color: hsl(0, 0%, 100%);
     padding: 0.625rem;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button>img,
@@ -129,13 +133,16 @@ ul {
 
 @media only screen and (max-width: 600px) {
     .card {
-        width: 275px;
+        width: 350px;
         height: auto;
+    }
+
+    h1 {
+        font-size: 35px;
     }
 
     .content>button {
         margin-bottom: 15px;
-        margin-left: -10px;
     }
 
     .product {
