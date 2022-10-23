@@ -130,8 +130,4 @@ ul {
     .product {
         display: none;
     }
-
-    h1>br {
-        display: inline;
-    }
 }
