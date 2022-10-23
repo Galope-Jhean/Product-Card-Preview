@@ -12,6 +12,7 @@
     align-items: flex-start;
     background-color: hsl(0, 0%, 100%);
     width: 40%;
+    overflow: hidden;
     margin: 50px auto;
     border-radius: 0 8px 8px 0;
 }
@@ -19,7 +20,8 @@
 .content {
     margin-top: 5%;
     margin-left: 1.5rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 
 .content>h1 {
@@ -29,7 +31,7 @@
     text-align: left;
 }
 
-.content>h2 {
+.content>h4 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1rem;
@@ -85,9 +87,11 @@ button>img {
     min-width: 50%;
     height: 100%;
     border-radius: 8px 0 0 8px;
+    background-position: center;
+    background-size: cover;
 }
 
-h2,
+h4,
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -125,5 +129,9 @@ ul {
 @media only screen and (max-width: 600px) {
     .product {
         display: none;
+    }
+
+    h1>br {
+        display: inline;
     }
 }
