@@ -11,7 +11,7 @@
     justify-content: start;
     align-items: flex-start;
     background-color: hsl(0, 0%, 100%);
-    width: 40%;
+    width: 600px;
     overflow: hidden;
     margin: 50px auto;
     border-radius: 0 8px 8px 0;
@@ -58,8 +58,8 @@
 }
 
 .content>button {
-    margin-top: 1.5rem;
-    width: 90%;
+    margin-top: 3rem;
+    width: 250px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     background-color: hsl(158, 36%, 37%);
