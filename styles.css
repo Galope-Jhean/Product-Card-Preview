@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: .3s all;
 }
 
 .card {
@@ -88,12 +87,14 @@ button>img {
     margin-right: 5px;
 }
 
+.mobile {
+    display: none;
+}
+
 .product {
     min-width: 50%;
     height: 100%;
     border-radius: 8px 0 0 8px;
-    background-position: center;
-    background-size: cover;
 }
 
 h4,
@@ -111,6 +112,7 @@ body {
     background-color: hsl(30, 38%, 92%);
     font-size: 0.875rem;
 }
+
 
 li {
     list-style-type: none;
@@ -145,7 +147,30 @@ ul {
         margin-bottom: 15px;
     }
 
+    .mobile {
+        display: block;
+        min-height: 40%;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
     .product {
         display: none;
     }
+
+    .content {
+        margin-left: -320px;
+        margin-top: 275px;
+        padding: 5px;
+    }
+
+    .content>button {
+        width: 90%;
+    }
+
+    .content>h1 {
+        font-size: 30px;
+    }
+
+
 }
