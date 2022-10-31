@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.3 ease;
 }
 
 .card {
@@ -186,5 +187,7 @@ picture {
         font-size: 30px;
     }
 
-
+    .content>p {
+        width: 90%;
+    }
 }
