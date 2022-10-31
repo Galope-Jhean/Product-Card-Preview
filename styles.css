@@ -40,9 +40,9 @@ h1 {
 }
 
 .content>p {
-    margin-top: 1.25rem;
+    margin-top: 1.2rem;
     line-height: 1.55rem;
-    width: 90%;
+    width: 85%;
 }
 
 .content .newprice {
@@ -87,9 +87,6 @@ button>img {
     margin-right: 5px;
 }
 
-.mobile {
-    display: none;
-}
 
 .product {
     min-width: 50%;
@@ -136,6 +133,22 @@ ul {
     color: hsl(228, 45%, 44%);
 }
 
+
+img,
+picture,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+picture {
+    overflow: hidden;
+    width: 900px;
+    border-radius: 8px 0 0 8px;
+}
+
+
 @media only screen and (max-width: 600px) {
     .card {
         width: 350px;
@@ -146,24 +159,22 @@ ul {
         font-size: 35px;
     }
 
-    .content>button {
-        margin-bottom: 15px;
-    }
-
-    .mobile {
-        display: block;
-        min-height: 40%;
-        width: 100%;
+    picture {
         border-radius: 8px 8px 0 0;
     }
 
-    .product {
-        display: none;
+    .content>button {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        display: block;
+        border-radius: 0 0 8px 8px;
     }
 
     .content {
-        margin-left: -320px;
-        margin-top: 275px;
+        margin-left: 20px;
+        margin-top: -5px;
         padding: 5px;
     }
 
